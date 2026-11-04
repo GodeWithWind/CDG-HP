@@ -1,0 +1,123 @@
+{
+  "selection": "Last 10,000 samples in original order; no shuffling or preprocessing",
+  "sample_indices_matlab_1_based": [
+    90001,
+    100000
+  ],
+  "sample_slice_python": "[90000:100000, :, :]",
+  "array_axis_order": [
+    "sample",
+    "user",
+    "transmit_antenna"
+  ],
+  "datasets": [
+    {
+      "source_file": "chicago_BS3_ant16_user8_row1-56_dist50.mat",
+      "output_file": "CHI_ant16_user8.mat",
+      "variable": "H_gather",
+      "original_shape": [
+        100000,
+        8,
+        16
+      ],
+      "output_shape": [
+        10000,
+        8,
+        16
+      ],
+      "dtype": "complex64",
+      "source_sha256": "c0e4d853f23398c0166e407ebc63e957ad9ced273a5d0138b28e3c6f72944899",
+      "output_sha256": "3d3ef3675ecefd1c337846b09c7688f53b5d9de13a9aa0122756bcf603c01abb"
+    },
+    {
+      "source_file": "chicago_BS3_ant32_user16_row1-56_dist50.mat",
+      "output_file": "CHI_ant32_user16.mat",
+      "variable": "H_gather",
+      "original_shape": [
+        100000,
+        16,
+        32
+      ],
+      "output_shape": [
+        10000,
+        16,
+        32
+      ],
+      "dtype": "complex64",
+      "source_sha256": "79cc9211bd3521007f3f964d9e267bc154d00e2835542732225c12d7290b905f",
+      "output_sha256": "81e931654ab3da8c78134b20bce49d9dca21f2d14ff847a31d236686cbb685e3"
+    },
+    {
+      "source_file": "losangeles_BS1_ant16_user8_row1-57_dist50.mat",
+      "output_file": "LA_ant16_user8.mat",
+      "variable": "H_gather",
+      "original_shape": [
+        100000,
+        8,
+        16
+      ],
+      "output_shape": [
+        10000,
+        8,
+        16
+      ],
+      "dtype": "complex64",
+      "source_sha256": "20b552b578f8b144d301385af3de54f2bea9e24052d2640171554ef4eabc87bb",
+      "output_sha256": "4863d296d04bf00b592472ba4c9212f15f1da396881ecb4a250de93a5a2dbc10"
+    },
+    {
+      "source_file": "losangeles_BS1_ant32_user16_row1-57_dist50.mat",
+      "output_file": "LA_ant32_user16.mat",
+      "variable": "H_gather",
+      "original_shape": [
+        100000,
+        16,
+        32
+      ],
+      "output_shape": [
+        10000,
+        16,
+        32
+      ],
+      "dtype": "complex64",
+      "source_sha256": "9fe43fcb3e17f9af01063694fc0b224131db728a19f01b4f810655a3c4307784",
+      "output_sha256": "455462721b5f22c226938984bb7e113f52c964a4d40bbf2583e1a4de917ea20e"
+    },
+    {
+      "source_file": "newyork_BS1_ant16_user8_row1-44_dist50.mat",
+      "output_file": "NY_ant16_user8.mat",
+      "variable": "H_gather",
+      "original_shape": [
+        100000,
+        8,
+        16
+      ],
+      "output_shape": [
+        10000,
+        8,
+        16
+      ],
+      "dtype": "complex64",
+      "source_sha256": "098ebcd1b35cef15d9a35d2f5244fcaeac14efcce499376ff884ed0928af5184",
+      "output_sha256": "406bb8ed1725ad0d9bdaeebaa3cfa22feddecada323d45883c61af2ef188f2ea"
+    },
+    {
+      "source_file": "newyork_BS1_ant32_user16_row1-44_dist50.mat",
+      "output_file": "NY_ant32_user16.mat",
+      "variable": "H_gather",
+      "original_shape": [
+        100000,
+        16,
+        32
+      ],
+      "output_shape": [
+        10000,
+        16,
+        32
+      ],
+      "dtype": "complex64",
+      "source_sha256": "2c26966d5764fe3e0559b827255555dfab39b95cb6c399013ddb23673820cbfa",
+      "output_sha256": "f545f7c18d43548f0343eb20d2985cda6ea24bfa09f92c89661e9b341c8f20da"
+    }
+  ]
+}
